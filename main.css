@@ -10,7 +10,8 @@ font-weight: 400;
 }
 
 body {
-
+    background: white;
+    /* background-color: rgb(122, 122, 122); */
 }
 
 header {
@@ -272,13 +273,15 @@ svg {
         transform: rotate(360deg);
     }
 }
-@media only screen and (max-width: 1100px) {
+@media only screen and (max-width: 1150px) {
     
     .signup {
         margin-left: 100px;
+        float: left;
     }
     .container {
         margin-left: 130px;
+        float: left;
     }
 }
 @media only screen and (max-width: 600px) {
