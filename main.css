@@ -220,6 +220,10 @@ svg {
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
 }
+
+#boxOpenClose:hover {
+    cursor:pointer;
+}
 .chooseColor {
     margin: 20px;
 }

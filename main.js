@@ -42,3 +42,4 @@ function functionDarkLight() {
         darkLight.innerHTML = 'Dark';
     }
 }
+
