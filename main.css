@@ -26,9 +26,16 @@ header {
     border-radius: 10px;
     float: right;
     margin: 30px 30px;
+    border: 1px solid rgb(56, 56, 56);
+    opacity: 0.5;
+}
+#home:hover {
+    opacity: 1;
+    transform: scale(1.05);
 }
 .home > .fa {
     color: black;
+    
 }
 .mainBox {
     margin: auto;
@@ -193,8 +200,10 @@ svg {
     font-size: 20px;
     text-align: center;
     border-radius: 30px;
-    left: 0px;
+    left: -250px;
     opacity: 0.9;
+    transition: 0.5s;
+    /* left -250px ir dingsta */
 }
 #boxOpenClose {
     background-color: whitesmoke;
