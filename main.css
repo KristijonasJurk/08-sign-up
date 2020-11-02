@@ -51,7 +51,7 @@ main {
 }
 .signup {
     width: 500px;
-    /* background-color: darkgoldenrod; */
+    background-color: transparent;
     margin: 30px 50px;
     max-width: 600px;
     min-width: 380px;
@@ -66,7 +66,7 @@ main {
     transition: 0.1s;
     border-radius: 20px;
     width: 400px;
-    height: 500px;
+    height: 520px;
     float: left;
     /* right is susikeicia vietomis */
 }
@@ -81,7 +81,7 @@ h2 {
     font-size: 30px;
     font-weight: 400;
     margin: 20px;
-    margin-top: 0%;
+    margin-top: 5%;
     margin-bottom: 15px;
     padding-left: 0px;
     padding-right: 0px;
@@ -135,6 +135,11 @@ svg {
 .smallText {
     font-size: 15px;
     line-height: 35px;
+    text-decoration: none;
+}
+.forgot {
+    margin-left: 130px;
+    color: black;
 }
 .register {
     display: block;
@@ -156,7 +161,7 @@ svg {
     justify-content: space-evenly;
     align-items: flex-end;
 }
-.socials a {
+.icon {
     display: flex;
     border: 1px solid rgb(58, 58, 58);
     width: 40px;
@@ -178,6 +183,7 @@ svg {
     line-height: 35px;
     margin-top: 5px;
     align-items: baseline;
+
 }
 .already a {
     text-decoration: none;
@@ -190,24 +196,36 @@ svg {
 .center {
     text-align: center;
 }
+.gray {
+    font-size: 18px;
+    line-height: 24px;
+    font-style: oblique;
+    margin-top: 40px;
+    opacity: 0.5;
+}
+#smaller {
+    height: 360px;
+}
+
 
 
 
 .box {
     position: fixed;
     width: 250px;
-    height: 320px;
-    background-color: whitesmoke;
+    height: 380px;
+    background: whitesmoke;
     font-size: 20px;
     text-align: center;
     border-radius: 30px;
     left: -250px;
     opacity: 0.9;
     transition: 0.5s;
+    border: 1px solid whitesmoke;
     /* left -250px ir dingsta */
 }
 #boxOpenClose {
-    background-color: whitesmoke;
+    background: whitesmoke;
     border: 1px solid rgb(223, 221, 221);
     border-left: none;
     opacity: 0.9;
@@ -228,7 +246,7 @@ svg {
     margin: 20px;
 }
 .box hr {
-    width: 150px;
+    width: 250px;
     opacity: 0.1;
 }
 .box .fa {

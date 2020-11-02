@@ -13,7 +13,7 @@
     <header>
         <a href="#">
             <div class="home" id="home">
-                <i class="fa fa-home" style="font-size:36px"></i>
+                <i class="fa fa-home home" style="font-size:36px"></i>
             </div>
         </a>
     </header>
@@ -76,20 +76,20 @@
                     </div>
                     <div class="terms">
                         <input type="checkbox">
-                        <label for="checkbox"></label>
+                        <label class="label" for="checkbox"></label>
                         <p class="smallText">I Accept Terms And Condition</p>
                     </div>
                     <a href="#" id="register" class="register center">Register</a>
                     <p class="center smallText">Or Sign Up With</p>
                     <div class="socials center">
-                        <a href="#" class="icon">
+                        <a href="#" class="icon" id="icon">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                 fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                 stroke-linejoin="round" class="feather feather-facebook">
                                 <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
                             </svg>
                         </a>
-                        <a href="#" class="icon">
+                        <a href="#" class="icon" id="icon">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                 fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                 stroke-linejoin="round" class="feather feather-github">
@@ -98,7 +98,7 @@
                                 </path>
                             </svg>
                         </a>
-                        <a href="#" class="icon">
+                        <a href="#" class="icon" id="icon">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                 fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                 stroke-linejoin="round" class="feather feather-twitter">
@@ -107,7 +107,7 @@
                                 </path>
                             </svg>
                         </a>
-                        <a href="#" class="icon">
+                        <a href="#" class="icon" id="icon">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                 fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                 stroke-linejoin="round" class="feather feather-gitlab">
@@ -119,21 +119,21 @@
                     </div>
                     <div class="center already">
                         <p class="smallText">Already have an account? </p>
-                        <a href="./signin.html">Sign In</a>
+                        <a class="signinLink" href="./signin.html">Sign In</a>
                     </div>
                 </div>
             </div>
             <div id="box" class="box">
                 <h4>Select your color</h4>
                 <div id="chooseColor" class="chooseColor">
-                    <i onclick="functionBlue()" class="fa fa-circle" aria-hidden="true" style="color:#d42f2f;"></i>
-                    <i onclick="functionGreen()" class="fa fa-circle" aria-hidden="true" style="color:#5b9964;"></i>
+                    <i onclick="functionRed()" class="fa fa-circle" aria-hidden="true" style="color:#d42f2f;"></i>
+                    <i onclick="functionBlack()" class="fa fa-circle" aria-hidden="true" style="color:#3b3a3a;"></i>
                     <i onclick="functionPurple()" class="fa fa-circle" aria-hidden="true" style="color:#8a69bd;"></i>
-                    <i onclick="functionPink()" class="fa fa-circle" aria-hidden="true" style="color:#4b38f1;"></i>
-                    <i onclick="functionLBlue()" class="fa fa-circle" aria-hidden="true" style="color:#7a8e94;"></i>
-                    <i onclick="functionDGreen()" class="fa fa-circle" aria-hidden="true" style="color:#23730f;"></i>
-                    <i onclick="functionLGreen()" class="fa fa-circle" aria-hidden="true" style="color:#c4c719;"></i>
-                    <i onclick="functionPBlue()" class="fa fa-circle" aria-hidden="true" style="color:#af6f32;"></i>
+                    <i onclick="functionBlue()" class="fa fa-circle" aria-hidden="true" style="color:#4b38f1;"></i>
+                    <i onclick="functionGray()" class="fa fa-circle" aria-hidden="true" style="color:#7a8e94;"></i>
+                    <i onclick="functionGreen()" class="fa fa-circle" aria-hidden="true" style="color:#23730f;"></i>
+                    <i onclick="functionYellow()" class="fa fa-circle" aria-hidden="true" style="color:#c4c719;"></i>
+                    <i onclick="functionOrange()" class="fa fa-circle" aria-hidden="true" style="color:#af6f32;"></i>
                 </div>
                 <hr>
                 <h4>Select Theme</h4>
